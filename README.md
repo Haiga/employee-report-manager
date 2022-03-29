@@ -1,6 +1,6 @@
 # employee-report-manager
 
-Basic Django app for employee and report management for SSYS test
+Basic Django app for employee and report management for Ssys test
 
 Basic endpoints:
 
