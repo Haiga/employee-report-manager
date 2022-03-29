@@ -2,6 +2,17 @@
 
 Basic Django app for employee and report management for Ssys test
 
+
+# Run on docker
+
+> docker-compose build
+
+> docker-compose up -d
+
+> docker exec -it employee-report-manager_web_1 /usr/local/bin/python manage.py migrate
+
+> docker exec -it employee-report-manager_web_1 /usr/local/bin/python manage.py createsuperuser
+
 Basic endpoints:
 
 ## API with employees CRUD:
